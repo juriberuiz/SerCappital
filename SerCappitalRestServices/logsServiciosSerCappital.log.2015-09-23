@@ -1,0 +1,746 @@
+2015-09-23/21:29:54.820 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:30:05.304 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:30:05.421 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:30:05.693 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:30:05.769 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:30:05.769 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:30:05.770 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:30:05.770 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:30:05.770 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1
+2015-09-23/21:30:05.771 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1[\r][\n]"
+2015-09-23/21:30:05.793 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:30:05.794 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:30:05.794 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:30:05.795 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:30:05.795 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:30:05.795 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:30:05.795 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:30:05.795 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:30:05.796 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:30:05.796 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:30:05.796 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1
+2015-09-23/21:30:05.801 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:30:05.801 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:30:05.801 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:30:05.802 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:30:05.802 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:30:05.802 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:30:05.802 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:30:05.802 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:30:05.802 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:30:06.054 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:30:06.088 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:30:06.088 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:30:06.088 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:30:06.088 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:30:06 GMT[\r][\n]"
+2015-09-23/21:30:06.088 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:30:06.088 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:30:06.089 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:30:06.090 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:30:06.090 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:30:06.090 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:30:06.090 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:30:06.090 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:30:06 GMT
+2015-09-23/21:30:06.090 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:30:06.124 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:30:06.127 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:30:06.128 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:30:06.128 [main] DEBUG org.apache.http.wire[] - << "f39[\r][\n]"
+2015-09-23/21:30:06.129 [main] DEBUG org.apache.http.wire[] - << "<listaLocalidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadDTO><localidadId>1</localidadId><nombre>Usaqu[0xc3][0xa9]n</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaqu[0xc3][0xa9]n</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>2</localidadId><nombre>Chapinero</nombre><numeroLocalidad>2</numeroLocalidad><descripcion>Localidad Chapinero</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>3</localidadId><nombre>Santa Fe</nombre><numeroLocalidad>3</numeroLocalidad><descripcion>Localidad Santa Fe</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>4</localidadId><nombre>San Crist[0xc3][0xb3]bal</nombre><numeroLocalidad>4</numeroLocalidad><descripcion>Localidad San Crist[0xc3][0xb3]bal</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>5</localidadId><nombre>Usme</nombre><numeroLocalidad>5</numeroLocalidad><descripcion>Localidad Usme</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>6</localidadId><nombre>Tunjuelito</nombre><numeroLocalidad>6</numeroLocalidad><descripcion>Localidad Tunjuelito</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>7</localidadId><nombre>Bosa</nombre><numeroLocalidad>7</numeroLocalidad><descripcion>Localidad Bosa</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>8</localidadId><nombre>Kennedy</nombre><numeroLocalidad>8</numeroLocalidad><descripcion>Localidad Kennedy</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>9</localidadId><nombre>Fontib[0xc3][0xb3]n</nombre><numeroLocalidad>9</numeroLocalidad><descripcion>Localidad Fontib[0xc3][0xb3]n</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>10</localidadId><nombre>Engativ[0xc3][0xa1]</nombre><numeroLocalidad>10</numeroLocalidad><descripcion>Localidad Engativ[0xc3][0xa1]</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>11</localidadId><nombre>Suba</nombre><numeroLocalidad>11</numeroLocalidad><descripcion>Localidad Suba</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>12</localidadId><nombre>Barrios Unidos</nombre><numeroLocalidad>12</numeroLocalidad><descripcion>Localidad Barrios Unidos</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>13</localidadId><nombre>Teusaquillo</nombre><numeroLocalidad>13</numeroLocalidad><descripcion>Localidad Teusaquillo</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>14</localidadId><nombre>Los M[0xc3][0xa1]rtires</nombre><numeroLocalidad>14</numeroLocalidad><descripcion>Localidad Los M[0xc3][0xa1]rtires</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>15</localidadId><nombre>Antonio Nari[0xc3][0xb1]o</nombre><numeroLocalidad>15</numeroLocalidad><descripcion>Localidad Antonio Nari[0xc3][0xb1]o</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>16</localidadId><nombre>Puente Aranda</nombre><numeroLocalidad>16</numeroLocalidad><descripcion>Localidad Puente Aranda</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>17</localidadId><nombre>La Candelaria</nombre><numeroLocalidad>17</numeroLocalidad><descripcion>Localidad La Candelaria</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>18</localidadId><nombre>Rafael Uribe Uribe</nombre><numeroLocalidad>18</numeroLocalidad><descripcion>Localidad Rafael Uribe Uribe</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>19</localidadId><nombre>Ciudad Bol[0xc3][0xad]var</nombre><numeroLocalidad>19</numeroLocalidad><descripcion>Localidad Ciudad Bol[0xc3][0xad]var</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>20</localidadId><nombre>Sumapaz</nombre><numeroLocalidad>20</numeroLocalidad><descripcion>Localidad Sumapaz</descripcion><estadoId>1</estadoId></localidadDTO></listaLocalidadDTO>"
+2015-09-23/21:30:06.130 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:30:06.130 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:30:06.131 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:30:06.131 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ca084f8
+2015-09-23/21:30:06.131 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:30:06.131 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:12886<->192.168.0.6:9763 closed
+2015-09-23/21:30:08.374 [main] ERROR co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"listaLocalidadDTO"). Expected elements are (none)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:642)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.reportError(Loader.java:254)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.reportError(Loader.java:249)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Loader.java:116)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(UnmarshallingContext.java:1049)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(UnmarshallingContext.java:478)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(UnmarshallingContext.java:459)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector.startElement(SAXConnector.java:148)
+	at org.xml.sax.helpers.XMLFilterImpl.startElement(Unknown Source)
+	at co.com.sercappital.jaxb.parser.NamespaceFilter.startElement(NamespaceFilter.java:41)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.xml.sax.helpers.XMLFilterImpl.parse(Unknown Source)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:211)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:184)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at co.com.sercappital.jaxb.parser.UtilidadesPojo.getXmlToPojo(UtilidadesPojo.java:52)
+	at co.com.sercappital.dataservice.broker.LocalidadDSBroker.intentoPin(LocalidadDSBroker.java:88)
+	at co.com.sercappital.dataservice.broker.LocalidadDSBroker.main(LocalidadDSBroker.java:102)
+
+2015-09-23/21:31:14.963 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:31:15.310 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:31:15.325 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:31:15.350 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:31:15.362 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:31:15.363 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:31:15.363 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:31:15.363 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:31:15.363 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1
+2015-09-23/21:31:15.364 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1[\r][\n]"
+2015-09-23/21:31:15.366 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:31:15.366 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:31:15.366 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:31:15.366 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:31:15.366 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:31:15.366 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:31:15.367 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:31:15.368 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:31:15.441 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:31:15.443 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:31:15.443 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:31:15.443 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:31:15.443 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:31:15 GMT[\r][\n]"
+2015-09-23/21:31:15.443 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:31:15.443 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:31:15.444 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:31:15.444 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:31:15.444 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:31:15.444 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:31:15.444 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:31:15.445 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:31:15 GMT
+2015-09-23/21:31:15.445 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:31:15.452 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:31:15.455 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:31:15.455 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:31:15.455 [main] DEBUG org.apache.http.wire[] - << "f39[\r][\n]"
+2015-09-23/21:31:15.456 [main] DEBUG org.apache.http.wire[] - << "<listaLocalidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadDTO><localidadId>1</localidadId><nombre>Usaqu[0xc3][0xa9]n</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaqu[0xc3][0xa9]n</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>2</localidadId><nombre>Chapinero</nombre><numeroLocalidad>2</numeroLocalidad><descripcion>Localidad Chapinero</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>3</localidadId><nombre>Santa Fe</nombre><numeroLocalidad>3</numeroLocalidad><descripcion>Localidad Santa Fe</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>4</localidadId><nombre>San Crist[0xc3][0xb3]bal</nombre><numeroLocalidad>4</numeroLocalidad><descripcion>Localidad San Crist[0xc3][0xb3]bal</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>5</localidadId><nombre>Usme</nombre><numeroLocalidad>5</numeroLocalidad><descripcion>Localidad Usme</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>6</localidadId><nombre>Tunjuelito</nombre><numeroLocalidad>6</numeroLocalidad><descripcion>Localidad Tunjuelito</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>7</localidadId><nombre>Bosa</nombre><numeroLocalidad>7</numeroLocalidad><descripcion>Localidad Bosa</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>8</localidadId><nombre>Kennedy</nombre><numeroLocalidad>8</numeroLocalidad><descripcion>Localidad Kennedy</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>9</localidadId><nombre>Fontib[0xc3][0xb3]n</nombre><numeroLocalidad>9</numeroLocalidad><descripcion>Localidad Fontib[0xc3][0xb3]n</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>10</localidadId><nombre>Engativ[0xc3][0xa1]</nombre><numeroLocalidad>10</numeroLocalidad><descripcion>Localidad Engativ[0xc3][0xa1]</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>11</localidadId><nombre>Suba</nombre><numeroLocalidad>11</numeroLocalidad><descripcion>Localidad Suba</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>12</localidadId><nombre>Barrios Unidos</nombre><numeroLocalidad>12</numeroLocalidad><descripcion>Localidad Barrios Unidos</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>13</localidadId><nombre>Teusaquillo</nombre><numeroLocalidad>13</numeroLocalidad><descripcion>Localidad Teusaquillo</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>14</localidadId><nombre>Los M[0xc3][0xa1]rtires</nombre><numeroLocalidad>14</numeroLocalidad><descripcion>Localidad Los M[0xc3][0xa1]rtires</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>15</localidadId><nombre>Antonio Nari[0xc3][0xb1]o</nombre><numeroLocalidad>15</numeroLocalidad><descripcion>Localidad Antonio Nari[0xc3][0xb1]o</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>16</localidadId><nombre>Puente Aranda</nombre><numeroLocalidad>16</numeroLocalidad><descripcion>Localidad Puente Aranda</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>17</localidadId><nombre>La Candelaria</nombre><numeroLocalidad>17</numeroLocalidad><descripcion>Localidad La Candelaria</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>18</localidadId><nombre>Rafael Uribe Uribe</nombre><numeroLocalidad>18</numeroLocalidad><descripcion>Localidad Rafael Uribe Uribe</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>19</localidadId><nombre>Ciudad Bol[0xc3][0xad]var</nombre><numeroLocalidad>19</numeroLocalidad><descripcion>Localidad Ciudad Bol[0xc3][0xad]var</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>20</localidadId><nombre>Sumapaz</nombre><numeroLocalidad>20</numeroLocalidad><descripcion>Localidad Sumapaz</descripcion><estadoId>1</estadoId></localidadDTO></listaLocalidadDTO>"
+2015-09-23/21:31:15.457 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:31:15.457 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:31:15.457 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:31:15.457 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@335856a5
+2015-09-23/21:31:15.457 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:31:15.457 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:13033<->192.168.0.6:9763 closed
+2015-09-23/21:32:43.931 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:32:44.306 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:32:44.322 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:32:44.348 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:32:44.361 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:32:44.361 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:32:44.362 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:32:44.362 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:32:44.362 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1
+2015-09-23/21:32:44.363 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1[\r][\n]"
+2015-09-23/21:32:44.364 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:32:44.364 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:32:44.364 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:32:44.364 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:32:44.365 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:32:44.365 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:32:44.365 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:32:44.365 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:32:44.366 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:32:44.426 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:32:44.428 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:32:44.429 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:32:44.429 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:32:44.429 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:32:44 GMT[\r][\n]"
+2015-09-23/21:32:44.429 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:32:44.429 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:32:44.430 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:32:44.430 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:32:44.430 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:32:44.430 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:32:44.430 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:32:44.430 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:32:44 GMT
+2015-09-23/21:32:44.430 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:32:44.438 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:32:44.441 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:32:44.441 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:32:44.442 [main] DEBUG org.apache.http.wire[] - << "f39[\r][\n]"
+2015-09-23/21:32:44.442 [main] DEBUG org.apache.http.wire[] - << "<listaLocalidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadDTO><localidadId>1</localidadId><nombre>Usaqu[0xc3][0xa9]n</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaqu[0xc3][0xa9]n</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>2</localidadId><nombre>Chapinero</nombre><numeroLocalidad>2</numeroLocalidad><descripcion>Localidad Chapinero</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>3</localidadId><nombre>Santa Fe</nombre><numeroLocalidad>3</numeroLocalidad><descripcion>Localidad Santa Fe</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>4</localidadId><nombre>San Crist[0xc3][0xb3]bal</nombre><numeroLocalidad>4</numeroLocalidad><descripcion>Localidad San Crist[0xc3][0xb3]bal</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>5</localidadId><nombre>Usme</nombre><numeroLocalidad>5</numeroLocalidad><descripcion>Localidad Usme</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>6</localidadId><nombre>Tunjuelito</nombre><numeroLocalidad>6</numeroLocalidad><descripcion>Localidad Tunjuelito</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>7</localidadId><nombre>Bosa</nombre><numeroLocalidad>7</numeroLocalidad><descripcion>Localidad Bosa</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>8</localidadId><nombre>Kennedy</nombre><numeroLocalidad>8</numeroLocalidad><descripcion>Localidad Kennedy</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>9</localidadId><nombre>Fontib[0xc3][0xb3]n</nombre><numeroLocalidad>9</numeroLocalidad><descripcion>Localidad Fontib[0xc3][0xb3]n</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>10</localidadId><nombre>Engativ[0xc3][0xa1]</nombre><numeroLocalidad>10</numeroLocalidad><descripcion>Localidad Engativ[0xc3][0xa1]</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>11</localidadId><nombre>Suba</nombre><numeroLocalidad>11</numeroLocalidad><descripcion>Localidad Suba</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>12</localidadId><nombre>Barrios Unidos</nombre><numeroLocalidad>12</numeroLocalidad><descripcion>Localidad Barrios Unidos</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>13</localidadId><nombre>Teusaquillo</nombre><numeroLocalidad>13</numeroLocalidad><descripcion>Localidad Teusaquillo</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>14</localidadId><nombre>Los M[0xc3][0xa1]rtires</nombre><numeroLocalidad>14</numeroLocalidad><descripcion>Localidad Los M[0xc3][0xa1]rtires</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>15</localidadId><nombre>Antonio Nari[0xc3][0xb1]o</nombre><numeroLocalidad>15</numeroLocalidad><descripcion>Localidad Antonio Nari[0xc3][0xb1]o</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>16</localidadId><nombre>Puente Aranda</nombre><numeroLocalidad>16</numeroLocalidad><descripcion>Localidad Puente Aranda</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>17</localidadId><nombre>La Candelaria</nombre><numeroLocalidad>17</numeroLocalidad><descripcion>Localidad La Candelaria</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>18</localidadId><nombre>Rafael Uribe Uribe</nombre><numeroLocalidad>18</numeroLocalidad><descripcion>Localidad Rafael Uribe Uribe</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>19</localidadId><nombre>Ciudad Bol[0xc3][0xad]var</nombre><numeroLocalidad>19</numeroLocalidad><descripcion>Localidad Ciudad Bol[0xc3][0xad]var</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>20</localidadId><nombre>Sumapaz</nombre><numeroLocalidad>20</numeroLocalidad><descripcion>Localidad Sumapaz</descripcion><estadoId>1</estadoId></localidadDTO></listaLocalidadDTO>"
+2015-09-23/21:32:44.443 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:32:44.443 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:32:44.443 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:32:44.443 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16f8f7db
+2015-09-23/21:32:44.443 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:32:44.444 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:13226<->192.168.0.6:9763 closed
+2015-09-23/21:33:50.245 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:33:50.618 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:33:50.638 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:33:50.669 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:33:50.686 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:33:50.686 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:33:50.686 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:33:50.687 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:33:50.687 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1
+2015-09-23/21:33:50.688 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1[\r][\n]"
+2015-09-23/21:33:50.689 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:33:50.689 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getAllLocalidad/ HTTP/1.1
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:33:50.690 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:33:50.691 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:33:50.691 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:33:50.691 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:33:50.691 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:33:50.691 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:33:50.719 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:33:50.722 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:33:50.722 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:33:50.722 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:33:50.722 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:33:50 GMT[\r][\n]"
+2015-09-23/21:33:50.722 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:33:50.722 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:33:50.723 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:33:50.723 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:33:50.724 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:33:50.724 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:33:50.724 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:33:50.724 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:33:50 GMT
+2015-09-23/21:33:50.724 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:33:50.731 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:33:50.734 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:33:50.734 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:33:50.735 [main] DEBUG org.apache.http.wire[] - << "f39[\r][\n]"
+2015-09-23/21:33:50.735 [main] DEBUG org.apache.http.wire[] - << "<listaLocalidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadDTO><localidadId>1</localidadId><nombre>Usaqu[0xc3][0xa9]n</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaqu[0xc3][0xa9]n</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>2</localidadId><nombre>Chapinero</nombre><numeroLocalidad>2</numeroLocalidad><descripcion>Localidad Chapinero</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>3</localidadId><nombre>Santa Fe</nombre><numeroLocalidad>3</numeroLocalidad><descripcion>Localidad Santa Fe</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>4</localidadId><nombre>San Crist[0xc3][0xb3]bal</nombre><numeroLocalidad>4</numeroLocalidad><descripcion>Localidad San Crist[0xc3][0xb3]bal</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>5</localidadId><nombre>Usme</nombre><numeroLocalidad>5</numeroLocalidad><descripcion>Localidad Usme</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>6</localidadId><nombre>Tunjuelito</nombre><numeroLocalidad>6</numeroLocalidad><descripcion>Localidad Tunjuelito</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>7</localidadId><nombre>Bosa</nombre><numeroLocalidad>7</numeroLocalidad><descripcion>Localidad Bosa</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>8</localidadId><nombre>Kennedy</nombre><numeroLocalidad>8</numeroLocalidad><descripcion>Localidad Kennedy</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>9</localidadId><nombre>Fontib[0xc3][0xb3]n</nombre><numeroLocalidad>9</numeroLocalidad><descripcion>Localidad Fontib[0xc3][0xb3]n</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>10</localidadId><nombre>Engativ[0xc3][0xa1]</nombre><numeroLocalidad>10</numeroLocalidad><descripcion>Localidad Engativ[0xc3][0xa1]</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>11</localidadId><nombre>Suba</nombre><numeroLocalidad>11</numeroLocalidad><descripcion>Localidad Suba</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>12</localidadId><nombre>Barrios Unidos</nombre><numeroLocalidad>12</numeroLocalidad><descripcion>Localidad Barrios Unidos</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>13</localidadId><nombre>Teusaquillo</nombre><numeroLocalidad>13</numeroLocalidad><descripcion>Localidad Teusaquillo</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>14</localidadId><nombre>Los M[0xc3][0xa1]rtires</nombre><numeroLocalidad>14</numeroLocalidad><descripcion>Localidad Los M[0xc3][0xa1]rtires</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>15</localidadId><nombre>Antonio Nari[0xc3][0xb1]o</nombre><numeroLocalidad>15</numeroLocalidad><descripcion>Localidad Antonio Nari[0xc3][0xb1]o</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>16</localidadId><nombre>Puente Aranda</nombre><numeroLocalidad>16</numeroLocalidad><descripcion>Localidad Puente Aranda</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>17</localidadId><nombre>La Candelaria</nombre><numeroLocalidad>17</numeroLocalidad><descripcion>Localidad La Candelaria</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>18</localidadId><nombre>Rafael Uribe Uribe</nombre><numeroLocalidad>18</numeroLocalidad><descripcion>Localidad Rafael Uribe Uribe</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>19</localidadId><nombre>Ciudad Bol[0xc3][0xad]var</nombre><numeroLocalidad>19</numeroLocalidad><descripcion>Localidad Ciudad Bol[0xc3][0xad]var</descripcion><estadoId>1</estadoId></localidadDTO><localidadDTO><localidadId>20</localidadId><nombre>Sumapaz</nombre><numeroLocalidad>20</numeroLocalidad><descripcion>Localidad Sumapaz</descripcion><estadoId>1</estadoId></localidadDTO></listaLocalidadDTO>"
+2015-09-23/21:33:50.736 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:33:50.736 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:33:50.736 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:33:50.736 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7776cad3
+2015-09-23/21:33:50.736 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:33:50.737 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:13368<->192.168.0.6:9763 closed
+2015-09-23/21:43:38.508 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:43:38.862 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:43:38.884 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:43:38.913 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:43:38.926 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:43:38.927 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:43:38.927 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:43:38.927 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:43:38.928 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1
+2015-09-23/21:43:38.928 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1[\r][\n]"
+2015-09-23/21:43:38.929 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1
+2015-09-23/21:43:38.930 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:43:38.931 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:43:38.931 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:43:38.931 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:43:38.931 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:43:38.931 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:43:38.931 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:43:38.931 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:43:38.931 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:43:39.000 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:43:39.003 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:43:39.003 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:43:39.003 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:43:39.003 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:43:38 GMT[\r][\n]"
+2015-09-23/21:43:39.003 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:43:39.004 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:43:39.005 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:43:39.005 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:43:39.005 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:43:39.005 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:43:39.005 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:43:39.005 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:43:38 GMT
+2015-09-23/21:43:39.006 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:43:39.012 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:43:39.014 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:43:39.015 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:43:39.015 [main] DEBUG org.apache.http.wire[] - << "e7[\r][\n]"
+2015-09-23/21:43:39.015 [main] DEBUG org.apache.http.wire[] - << "<localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>1</localidadId><nombre>Usaqu[0xc3][0xa9]n</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaqu[0xc3][0xa9]n</descripcion><estadoId>1</estadoId></localidadDTO>"
+2015-09-23/21:43:39.015 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:43:39.015 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:43:39.015 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:43:39.015 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7776cad3
+2015-09-23/21:43:39.016 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:43:39.017 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:14732<->192.168.0.6:9763 closed
+2015-09-23/21:44:34.625 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:44:34.968 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:44:34.994 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:44:35.020 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:44:35.035 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:44:35.035 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:44:35.036 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:44:35.036 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:44:35.036 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1
+2015-09-23/21:44:35.037 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1[\r][\n]"
+2015-09-23/21:44:35.038 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:44:35.038 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:44:35.038 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:44:35.038 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:44:35.038 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:44:35.038 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:44:35.038 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:44:35.039 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:44:35.058 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:44:35.060 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:44:35.060 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:44:35.060 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:44:35.060 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:44:35 GMT[\r][\n]"
+2015-09-23/21:44:35.060 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:44:35.061 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:44:35.061 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:44:35.063 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:44:35.063 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:44:35.063 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:44:35.063 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:44:35.063 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:44:35 GMT
+2015-09-23/21:44:35.063 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:44:35.070 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:44:35.072 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:44:35.072 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:44:35.073 [main] DEBUG org.apache.http.wire[] - << "e7[\r][\n]"
+2015-09-23/21:44:35.073 [main] DEBUG org.apache.http.wire[] - << "<localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>1</localidadId><nombre>Usaqu[0xc3][0xa9]n</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaqu[0xc3][0xa9]n</descripcion><estadoId>1</estadoId></localidadDTO>"
+2015-09-23/21:44:35.073 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:44:35.073 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:44:35.073 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:44:35.073 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b113622
+2015-09-23/21:44:35.073 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:44:35.074 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:14845<->192.168.0.6:9763 closed
+2015-09-23/21:44:52.662 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:44:52.992 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:44:53.009 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:44:53.033 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:44:53.055 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:44:53.055 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:44:53.056 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:44:53.056 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:44:53.056 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1
+2015-09-23/21:44:53.057 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1[\r][\n]"
+2015-09-23/21:44:53.058 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:44:53.058 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:44:53.058 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:44:53.058 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:44:53.058 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:44:53.058 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:44:53.058 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:44:53.059 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:44:53.082 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:44:53.084 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:44:53.084 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:44:53.084 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:44:53.084 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:44:53 GMT[\r][\n]"
+2015-09-23/21:44:53.084 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:44:53.084 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:44:53.085 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:44:53.086 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:44:53.086 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:44:53.086 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:44:53.086 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:44:53.086 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:44:53 GMT
+2015-09-23/21:44:53.086 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:44:53.094 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:44:53.097 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:44:53.098 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:44:53.098 [main] DEBUG org.apache.http.wire[] - << "e7[\r][\n]"
+2015-09-23/21:44:53.098 [main] DEBUG org.apache.http.wire[] - << "<localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>1</localidadId><nombre>Usaqu[0xc3][0xa9]n</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaqu[0xc3][0xa9]n</descripcion><estadoId>1</estadoId></localidadDTO>"
+2015-09-23/21:44:53.098 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:44:53.098 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:44:53.098 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:44:53.099 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17fe1feb
+2015-09-23/21:44:53.099 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:44:53.099 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:14882<->192.168.0.6:9763 closed
+2015-09-23/21:54:08.036 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - URL: http://192.168.0.6:9763/services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById, timeOut: 3000
+2015-09-23/21:54:08.048 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:54:08.392 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:54:08.410 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:54:08.436 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:54:08.451 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:54:08.451 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:54:08.452 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:54:08.452 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:54:08.452 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1
+2015-09-23/21:54:08.453 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1[\r][\n]"
+2015-09-23/21:54:08.455 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/1 HTTP/1.1
+2015-09-23/21:54:08.456 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:54:08.457 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:54:08.457 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:54:08.457 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:54:08.457 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:54:08.457 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:54:08.457 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:54:08.457 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:54:08.457 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:54:08.510 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:54:08.512 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:54:08.512 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:54:08.513 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:54:08.513 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:54:08 GMT[\r][\n]"
+2015-09-23/21:54:08.513 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:54:08.513 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:54:08.513 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:54:08.514 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:54:08.514 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:54:08.514 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:54:08.514 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:54:08.514 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:54:08 GMT
+2015-09-23/21:54:08.514 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:54:08.522 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:54:08.526 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:54:08.526 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:54:08.526 [main] DEBUG org.apache.http.wire[] - << "e7[\r][\n]"
+2015-09-23/21:54:08.526 [main] DEBUG org.apache.http.wire[] - << "<localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>1</localidadId><nombre>Usaqu[0xc3][0xa9]n</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaqu[0xc3][0xa9]n</descripcion><estadoId>1</estadoId></localidadDTO>"
+2015-09-23/21:54:08.526 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:54:08.527 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:54:08.527 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:54:08.527 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17fe1feb
+2015-09-23/21:54:08.527 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:54:08.528 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:16027<->192.168.0.6:9763 closed
+2015-09-23/21:54:08.528 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - Respuesta XML: <localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>1</localidadId><nombre>Usaquén</nombre><numeroLocalidad>1</numeroLocalidad><descripcion>Localidad Usaquén</descripcion><estadoId>1</estadoId></localidadDTO>
+2015-09-23/21:56:36.500 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - URL: http://192.168.0.6:9763/services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById, timeOut: 3000
+2015-09-23/21:56:36.508 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/21:56:36.831 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/21:56:36.848 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/21:56:36.876 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/21:56:36.889 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/21:56:36.889 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/21:56:36.889 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/21:56:36.889 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/21:56:36.890 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/2 HTTP/1.1
+2015-09-23/21:56:36.891 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/2 HTTP/1.1[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/21:56:36.893 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/2 HTTP/1.1
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/21:56:36.894 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/21:56:51.813 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/21:56:51.816 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/21:56:51.816 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/21:56:51.816 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/21:56:51.817 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 02:56:51 GMT[\r][\n]"
+2015-09-23/21:56:51.817 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/21:56:51.817 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:56:51.818 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/21:56:51.818 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/21:56:51.818 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/21:56:51.818 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/21:56:51.818 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/21:56:51.818 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 02:56:51 GMT
+2015-09-23/21:56:51.818 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/21:56:51.826 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/21:56:51.828 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/21:56:51.829 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/21:56:51.829 [main] DEBUG org.apache.http.wire[] - << "e9[\r][\n]"
+2015-09-23/21:56:51.830 [main] DEBUG org.apache.http.wire[] - << "<localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>2</localidadId><nombre>Chapinero</nombre><numeroLocalidad>2</numeroLocalidad><descripcion>Localidad Chapinero</descripcion><estadoId>1</estadoId></localidadDTO>"
+2015-09-23/21:56:51.830 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:56:51.830 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/21:56:51.830 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/21:56:51.830 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ca084f8
+2015-09-23/21:56:51.830 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/21:56:51.831 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:16525<->192.168.0.6:9763 closed
+2015-09-23/21:56:51.831 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - Respuesta XML: <localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>2</localidadId><nombre>Chapinero</nombre><numeroLocalidad>2</numeroLocalidad><descripcion>Localidad Chapinero</descripcion><estadoId>1</estadoId></localidadDTO>
+2015-09-23/22:05:31.379 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - URL: http://192.168.0.6:9763/services/MOB_LOCALIDADES_DataService.HTTPEndpoint/insertLocalidad, timeOut: 3000
+2015-09-23/22:05:31.417 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/22:05:32.448 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/22:05:32.512 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/22:05:32.580 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/22:05:32.592 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/22:05:32.592 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/22:05:32.593 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/22:05:32.593 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/22:05:32.593 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/insertLocalidad/LOC%20PRUEBA/DESC%20LOC%20PRUEBA/55/1 HTTP/1.1
+2015-09-23/22:05:32.594 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/insertLocalidad/LOC%20PRUEBA/DESC%20LOC%20PRUEBA/55/1 HTTP/1.1[\r][\n]"
+2015-09-23/22:05:32.595 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/22:05:32.595 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/22:05:32.595 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/22:05:32.595 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/22:05:32.595 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/22:05:32.595 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/insertLocalidad/LOC%20PRUEBA/DESC%20LOC%20PRUEBA/55/1 HTTP/1.1
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/22:05:32.596 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/22:05:33.084 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 202 Accepted[\r][\n]"
+2015-09-23/22:05:33.087 [main] DEBUG org.apache.http.wire[] - << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2015-09-23/22:05:33.087 [main] DEBUG org.apache.http.wire[] - << "Content-Length: 0[\r][\n]"
+2015-09-23/22:05:33.087 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 03:05:33 GMT[\r][\n]"
+2015-09-23/22:05:33.087 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/22:05:33.087 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/22:05:33.090 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 202 Accepted
+2015-09-23/22:05:33.090 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 202 Accepted
+2015-09-23/22:05:33.090 [main] DEBUG org.apache.http.headers[] - << Content-Type: text/html;charset=UTF-8
+2015-09-23/22:05:33.090 [main] DEBUG org.apache.http.headers[] - << Content-Length: 0
+2015-09-23/22:05:33.090 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 03:05:33 GMT
+2015-09-23/22:05:33.090 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/22:05:33.096 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/22:05:33.098 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 202
+2015-09-23/22:05:33.099 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/22:05:33.099 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16f8f7db
+2015-09-23/22:05:33.099 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/22:05:33.099 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:17698<->192.168.0.6:9763 closed
+2015-09-23/22:05:33.099 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - Respuesta XML: 
+2015-09-23/22:06:05.322 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - URL: http://192.168.0.6:9763/services/MOB_LOCALIDADES_DataService.HTTPEndpoint/insertLocalidad, timeOut: 3000
+2015-09-23/22:06:05.334 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/22:06:05.634 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/22:06:05.650 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/22:06:05.677 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/22:06:05.691 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/22:06:05.691 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/22:06:05.692 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/22:06:05.693 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/22:06:05.693 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/insertLocalidad/LOC%20PRUEBA/DESC%20LOC%20PRUEBA/55/2 HTTP/1.1
+2015-09-23/22:06:05.694 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/insertLocalidad/LOC%20PRUEBA/DESC%20LOC%20PRUEBA/55/2 HTTP/1.1[\r][\n]"
+2015-09-23/22:06:05.695 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/22:06:05.695 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/22:06:05.695 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/22:06:05.695 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/22:06:05.695 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/insertLocalidad/LOC%20PRUEBA/DESC%20LOC%20PRUEBA/55/2 HTTP/1.1
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/22:06:05.696 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/22:06:05.697 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/22:06:07.940 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2015-09-23/22:06:07.943 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/22:06:07.943 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/22:06:07.943 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/22:06:07.943 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 03:06:07 GMT[\r][\n]"
+2015-09-23/22:06:07.943 [main] DEBUG org.apache.http.wire[] - << "Connection: close[\r][\n]"
+2015-09-23/22:06:07.943 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/22:06:07.943 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/22:06:07.944 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 500 Internal Server Error
+2015-09-23/22:06:07.944 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 500 Internal Server Error
+2015-09-23/22:06:07.944 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/22:06:07.944 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/22:06:07.944 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/22:06:07.944 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 03:06:07 GMT
+2015-09-23/22:06:07.944 [main] DEBUG org.apache.http.headers[] - << Connection: close
+2015-09-23/22:06:07.944 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/22:06:07.955 [main] ERROR co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - [Exception] ClienteServiciosDataservice -> consumirServicio
+2015-09-23/22:06:07.971 [main] ERROR co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - java.lang.RuntimeException: Falló : Código de Error HTTP: 500
+	at co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice.consumirServicio(ClienteServiciosDataservice.java:97)
+	at co.com.sercappital.dataservice.broker.LocalidadDSBroker.insertLocalidad(LocalidadDSBroker.java:209)
+	at co.com.sercappital.dataservice.broker.LocalidadDSBroker.main(LocalidadDSBroker.java:222)
+
+2015-09-23/22:06:07.971 [main] ERROR co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - co.com.sercappital.excepciones.NegocioExcepcion: Error general al tratar de consumir el servicio REST.
+	at co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice.consumirServicio(ClienteServiciosDataservice.java:127)
+	at co.com.sercappital.dataservice.broker.LocalidadDSBroker.insertLocalidad(LocalidadDSBroker.java:209)
+	at co.com.sercappital.dataservice.broker.LocalidadDSBroker.main(LocalidadDSBroker.java:222)
+
+2015-09-23/22:07:27.610 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - URL: http://192.168.0.6:9763/services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById, timeOut: 3000
+2015-09-23/22:07:27.618 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/22:07:27.916 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/22:07:27.937 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/22:07:27.965 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/22:07:27.979 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/22:07:27.982 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/22:07:27.983 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/22:07:27.983 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/22:07:27.983 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/21 HTTP/1.1
+2015-09-23/22:07:27.984 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/21 HTTP/1.1[\r][\n]"
+2015-09-23/22:07:27.985 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/getLocalidadesById/21 HTTP/1.1
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/22:07:27.986 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/22:07:27.987 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/22:07:27.987 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/22:07:27.987 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/22:07:27.987 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/22:07:27.987 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/22:07:27.987 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/22:07:28.467 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-23/22:07:28.470 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-23/22:07:28.470 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-23/22:07:28.470 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-23/22:07:28.470 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 03:07:28 GMT[\r][\n]"
+2015-09-23/22:07:28.470 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/22:07:28.470 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/22:07:28.471 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-23/22:07:28.471 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-23/22:07:28.471 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-23/22:07:28.471 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-23/22:07:28.471 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-23/22:07:28.471 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 03:07:28 GMT
+2015-09-23/22:07:28.471 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/22:07:28.477 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/22:07:28.480 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-23/22:07:28.480 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/22:07:28.480 [main] DEBUG org.apache.http.wire[] - << "e8[\r][\n]"
+2015-09-23/22:07:28.480 [main] DEBUG org.apache.http.wire[] - << "<localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>21</localidadId><nombre>LOC PRUEBA</nombre><numeroLocalidad>55</numeroLocalidad><descripcion>DESC LOC PRUEBA</descripcion><estadoId>1</estadoId></localidadDTO>"
+2015-09-23/22:07:28.481 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/22:07:28.481 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-23/22:07:28.481 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/22:07:28.481 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2ce1899b
+2015-09-23/22:07:28.481 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/22:07:28.481 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:17943<->192.168.0.6:9763 closed
+2015-09-23/22:07:28.482 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - Respuesta XML: <localidadDTO xmlns="http://sercappital.com.co/dataservice"><localidadId>21</localidadId><nombre>LOC PRUEBA</nombre><numeroLocalidad>55</numeroLocalidad><descripcion>DESC LOC PRUEBA</descripcion><estadoId>1</estadoId></localidadDTO>
+2015-09-23/22:07:59.863 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - URL: http://192.168.0.6:9763/services/MOB_LOCALIDADES_DataService.HTTPEndpoint/deleteLocalidad, timeOut: 3000
+2015-09-23/22:07:59.871 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-23/22:08:00.134 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.0.6:9763
+2015-09-23/22:08:00.154 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.0.6:9763
+2015-09-23/22:08:00.182 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-23/22:08:00.201 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-23/22:08:00.201 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-23/22:08:00.202 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-23/22:08:00.202 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-23/22:08:00.202 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/deleteLocalidad/21 HTTP/1.1
+2015-09-23/22:08:00.204 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/deleteLocalidad/21 HTTP/1.1[\r][\n]"
+2015-09-23/22:08:00.207 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.0.6:9763[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_LOCALIDADES_DataService.HTTPEndpoint/deleteLocalidad/21 HTTP/1.1
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-23/22:08:00.208 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.0.6:9763
+2015-09-23/22:08:00.300 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 202 Accepted[\r][\n]"
+2015-09-23/22:08:00.302 [main] DEBUG org.apache.http.wire[] - << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2015-09-23/22:08:00.302 [main] DEBUG org.apache.http.wire[] - << "Content-Length: 0[\r][\n]"
+2015-09-23/22:08:00.302 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 03:08:00 GMT[\r][\n]"
+2015-09-23/22:08:00.303 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-23/22:08:00.303 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-23/22:08:00.303 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 202 Accepted
+2015-09-23/22:08:00.303 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 202 Accepted
+2015-09-23/22:08:00.304 [main] DEBUG org.apache.http.headers[] - << Content-Type: text/html;charset=UTF-8
+2015-09-23/22:08:00.304 [main] DEBUG org.apache.http.headers[] - << Content-Length: 0
+2015-09-23/22:08:00.304 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 03:08:00 GMT
+2015-09-23/22:08:00.304 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-23/22:08:00.308 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-23/22:08:00.311 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 202
+2015-09-23/22:08:00.311 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-23/22:08:00.312 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7776cad3
+2015-09-23/22:08:00.312 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-23/22:08:00.312 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:18013<->192.168.0.6:9763 closed
+2015-09-23/22:08:00.312 [main] INFO  co.com.sercappital.dataservice.broker.LocalidadDSBroker[] - Respuesta XML: 

@@ -1,0 +1,513 @@
+2015-09-24/11:03:05.828 [main] INFO  co.com.sercappital.dataservice.broker.UsuariosDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios, timeOut: 3000
+2015-09-24/11:03:05.888 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:03:07.031 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:03:07.086 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:03:07.211 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:03:07.276 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:03:07.277 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:03:07.280 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:03:07.280 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:03:07.281 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1
+2015-09-24/11:03:07.285 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1[\r][\n]"
+2015-09-24/11:03:07.290 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:03:07.291 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:03:07.291 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:03:07.291 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:03:07.291 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:03:07.292 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:03:07.292 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:03:07.292 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:03:07.292 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:03:07.292 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:03:07.293 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1
+2015-09-24/11:03:07.293 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:03:07.293 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:03:07.293 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:03:07.294 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:03:07.294 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:03:07.294 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:03:07.294 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:03:07.294 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:03:07.295 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:03:07.418 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:03:07.426 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:03:07.426 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:03:07.426 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:03:07.427 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:03:07 GMT[\r][\n]"
+2015-09-24/11:03:07.427 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:03:07.427 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:07.431 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:03:07.431 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:03:07.431 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:03:07.432 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:03:07.432 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:03:07.432 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:03:07 GMT
+2015-09-24/11:03:07.432 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:03:07.458 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:07.469 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:03:07.470 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:03:07.470 [main] DEBUG org.apache.http.wire[] - << "378[\r][\n]"
+2015-09-24/11:03:07.471 [main] DEBUG org.apache.http.wire[] - << "<usuarioDTO xmlns="http://sercappital.com.co/dataservice"><usuarioId xmlns="http://sercappital.com.co/dataservice">1</usuarioId><correo xmlns="http://sercappital.com.co/dataservice">juriberuiz@gmail.com</correo><nombre xmlns="http://sercappital.com.co/dataservice">Juan David Uribe</nombre><usuario xmlns="http://sercappital.com.co/dataservice">juanda</usuario><numeroIdentificacion xmlns="http://sercappital.com.co/dataservice">4514938</numeroIdentificacion><direccion xmlns="http://sercappital.com.co/dataservice">Rafael Nu[0xc3][0xb1]ez</direccion><telefono xmlns="http://sercappital.com.co/dataservice">3012594285</telefono><clave xmlns="http://sercappital.com.co/dataservice">ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413</clave><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></usuarioDTO>"
+2015-09-24/11:03:07.471 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:07.472 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:03:07.472 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:07.472 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17fe1feb
+2015-09-24/11:03:07.473 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:07.474 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51820<->192.168.215.230:9763 closed
+2015-09-24/11:03:07.475 [main] INFO  co.com.sercappital.dataservice.broker.UsuariosDSBroker[] - Respuesta XML: <usuarioDTO xmlns="http://sercappital.com.co/dataservice"><usuarioId xmlns="http://sercappital.com.co/dataservice">1</usuarioId><correo xmlns="http://sercappital.com.co/dataservice">juriberuiz@gmail.com</correo><nombre xmlns="http://sercappital.com.co/dataservice">Juan David Uribe</nombre><usuario xmlns="http://sercappital.com.co/dataservice">juanda</usuario><numeroIdentificacion xmlns="http://sercappital.com.co/dataservice">4514938</numeroIdentificacion><direccion xmlns="http://sercappital.com.co/dataservice">Rafael Nuñez</direccion><telefono xmlns="http://sercappital.com.co/dataservice">3012594285</telefono><clave xmlns="http://sercappital.com.co/dataservice">ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413</clave><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></usuarioDTO>
+2015-09-24/11:03:08.502 [main] INFO  co.com.sercappital.dataservice.broker.TemasDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas, timeOut: 3000
+2015-09-24/11:03:08.503 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:03:08.536 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:03:08.536 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:03:08.539 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:03:08.540 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:03:08.540 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:03:08.541 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:03:08.541 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:03:08.541 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1
+2015-09-24/11:03:08.541 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1[\r][\n]"
+2015-09-24/11:03:08.542 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:03:08.542 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:03:08.542 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:03:08.542 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:03:08.542 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:03:08.543 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:03:08.543 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:03:08.543 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:03:08.543 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:03:08.544 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:03:08.544 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1
+2015-09-24/11:03:08.544 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:03:08.544 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:03:08.544 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:03:08.544 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:03:08.545 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:03:08.545 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:03:08.545 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:03:08.545 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:03:08.545 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:03:08.579 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:03:08.580 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:03:08.580 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:03:08.582 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:03:08.583 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:03:08 GMT[\r][\n]"
+2015-09-24/11:03:08.583 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:03:08.584 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:08.584 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:03:08.584 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:03:08.584 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:03:08.584 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:03:08.585 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:03:08.585 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:03:08 GMT
+2015-09-24/11:03:08.585 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:03:08.585 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:08.586 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:03:08.586 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:03:08.586 [main] DEBUG org.apache.http.wire[] - << "51f[\r][\n]"
+2015-09-24/11:03:08.587 [main] DEBUG org.apache.http.wire[] - << "<listaTemaDTO xmlns="http://sercappital.com.co/dataservice"><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Puentes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Puentes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Funerarios</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Funerarios</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">3</temaId><nombre xmlns="http://sercappital.com.co/dataservice">[0xc3][0x81]rboles</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema [0xc3][0x81]rboles</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">4</temaId><nombre xmlns="http://sercappital.com.co/dataservice">C[0xc3][0xa9]spedes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema C[0xc3][0xa9]spedes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO></listaTemaDTO>"
+2015-09-24/11:03:08.588 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:08.588 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:03:08.588 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:08.589 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@ed0220c
+2015-09-24/11:03:08.589 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:08.589 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51822<->192.168.215.230:9763 closed
+2015-09-24/11:03:08.590 [main] INFO  co.com.sercappital.dataservice.broker.TemasDSBroker[] - Respuesta XML: <listaTemaDTO xmlns="http://sercappital.com.co/dataservice"><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Puentes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Puentes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Funerarios</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Funerarios</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">3</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Árboles</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Árboles</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">4</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Céspedes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Céspedes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO></listaTemaDTO>
+2015-09-24/11:03:08.723 [main] INFO  co.com.sercappital.dataservice.broker.SubtemasDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas, timeOut: 3000
+2015-09-24/11:03:08.723 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:03:08.746 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:03:08.747 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:03:08.751 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:03:08.752 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:03:08.752 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:03:08.753 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:03:08.753 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:03:08.753 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1
+2015-09-24/11:03:08.753 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1[\r][\n]"
+2015-09-24/11:03:08.754 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:03:08.754 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:03:08.754 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:03:08.754 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:03:08.755 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:03:08.755 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:03:08.755 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:03:08.755 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:03:08.756 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:03:08.756 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:03:08.756 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1
+2015-09-24/11:03:08.756 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:03:08.756 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:03:08.757 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:03:08.757 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:03:08.757 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:03:08.757 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:03:08.757 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:03:08.757 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:03:08.758 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:03:08.786 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:03:08.786 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:03:08.787 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:03:08.787 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:03:08.787 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:03:08 GMT[\r][\n]"
+2015-09-24/11:03:08.787 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:03:08.787 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:08.788 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:03:08.788 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:03:08.788 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:03:08.788 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:03:08.788 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:03:08.788 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:03:08 GMT
+2015-09-24/11:03:08.789 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:03:08.789 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:08.790 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:03:08.790 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:03:08.790 [main] DEBUG org.apache.http.wire[] - << "1082[\r][\n]"
+2015-09-24/11:03:08.792 [main] DEBUG org.apache.http.wire[] - << "<listaSubTemaDTO xmlns="http://sercappital.com.co/dataservice"><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">1</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">2</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">3</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">4</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Riesgo</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Riesgo</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">5</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">6</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">7</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId>8</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>2</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>9</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>10</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>11</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>12</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>13</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>14</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>15</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>16</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO></listaSubTemaDTO>"
+2015-09-24/11:03:08.793 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:08.793 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:03:08.793 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:08.793 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ad3c65d
+2015-09-24/11:03:08.794 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:08.794 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51823<->192.168.215.230:9763 closed
+2015-09-24/11:03:08.794 [main] INFO  co.com.sercappital.dataservice.broker.SubtemasDSBroker[] - Respuesta XML: <listaSubTemaDTO xmlns="http://sercappital.com.co/dataservice"><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">1</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">2</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">3</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">4</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Riesgo</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Riesgo</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">5</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">6</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">7</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId>8</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>2</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>9</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>10</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>11</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>12</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>13</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>14</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>15</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>16</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO></listaSubTemaDTO>
+2015-09-24/11:03:50.111 [main] INFO  co.com.sercappital.dataservice.broker.UsuariosDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios, timeOut: 3000
+2015-09-24/11:03:50.154 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:03:51.061 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:03:51.119 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:03:51.197 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:03:51.245 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:03:51.246 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:03:51.248 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:03:51.248 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:03:51.249 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1
+2015-09-24/11:03:51.251 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1[\r][\n]"
+2015-09-24/11:03:51.256 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:03:51.256 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:03:51.257 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:03:51.257 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:03:51.257 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:03:51.257 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:03:51.257 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:03:51.258 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:03:51.258 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:03:51.258 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:03:51.258 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1
+2015-09-24/11:03:51.259 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:03:51.259 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:03:51.259 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:03:51.259 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:03:51.259 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:03:51.260 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:03:51.260 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:03:51.260 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:03:51.260 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:03:51.273 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:03:51.280 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:03:51.281 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:03:51.281 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:03:51.281 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:03:51 GMT[\r][\n]"
+2015-09-24/11:03:51.281 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:03:51.281 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:51.284 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:03:51.285 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:03:51.285 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:03:51.286 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:03:51.286 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:03:51.286 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:03:51 GMT
+2015-09-24/11:03:51.286 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:03:51.308 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:51.317 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:03:51.318 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:03:51.318 [main] DEBUG org.apache.http.wire[] - << "378[\r][\n]"
+2015-09-24/11:03:51.319 [main] DEBUG org.apache.http.wire[] - << "<usuarioDTO xmlns="http://sercappital.com.co/dataservice"><usuarioId xmlns="http://sercappital.com.co/dataservice">1</usuarioId><correo xmlns="http://sercappital.com.co/dataservice">juriberuiz@gmail.com</correo><nombre xmlns="http://sercappital.com.co/dataservice">Juan David Uribe</nombre><usuario xmlns="http://sercappital.com.co/dataservice">juanda</usuario><numeroIdentificacion xmlns="http://sercappital.com.co/dataservice">4514938</numeroIdentificacion><direccion xmlns="http://sercappital.com.co/dataservice">Rafael Nu[0xc3][0xb1]ez</direccion><telefono xmlns="http://sercappital.com.co/dataservice">3012594285</telefono><clave xmlns="http://sercappital.com.co/dataservice">ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413</clave><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></usuarioDTO>"
+2015-09-24/11:03:51.319 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:51.320 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:03:51.320 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:51.320 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2ce1899b
+2015-09-24/11:03:51.320 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:51.322 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51826<->192.168.215.230:9763 closed
+2015-09-24/11:03:51.324 [main] INFO  co.com.sercappital.dataservice.broker.UsuariosDSBroker[] - Respuesta XML: <usuarioDTO xmlns="http://sercappital.com.co/dataservice"><usuarioId xmlns="http://sercappital.com.co/dataservice">1</usuarioId><correo xmlns="http://sercappital.com.co/dataservice">juriberuiz@gmail.com</correo><nombre xmlns="http://sercappital.com.co/dataservice">Juan David Uribe</nombre><usuario xmlns="http://sercappital.com.co/dataservice">juanda</usuario><numeroIdentificacion xmlns="http://sercappital.com.co/dataservice">4514938</numeroIdentificacion><direccion xmlns="http://sercappital.com.co/dataservice">Rafael Nuñez</direccion><telefono xmlns="http://sercappital.com.co/dataservice">3012594285</telefono><clave xmlns="http://sercappital.com.co/dataservice">ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413</clave><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></usuarioDTO>
+2015-09-24/11:03:52.093 [main] INFO  co.com.sercappital.dataservice.broker.TemasDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas, timeOut: 3000
+2015-09-24/11:03:52.093 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:03:52.118 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:03:52.119 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:03:52.121 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:03:52.122 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:03:52.122 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:03:52.122 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:03:52.122 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:03:52.122 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1
+2015-09-24/11:03:52.123 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1[\r][\n]"
+2015-09-24/11:03:52.123 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:03:52.123 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:03:52.123 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:03:52.124 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:03:52.124 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:03:52.124 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:03:52.124 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:03:52.124 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:03:52.125 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:03:52.125 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:03:52.125 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1
+2015-09-24/11:03:52.125 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:03:52.125 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:03:52.125 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:03:52.126 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:03:52.126 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:03:52.126 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:03:52.126 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:03:52.126 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:03:52.126 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:03:52.139 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:03:52.139 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:03:52.139 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:03:52.140 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:03:52.140 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:03:51 GMT[\r][\n]"
+2015-09-24/11:03:52.140 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:03:52.140 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:52.141 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:03:52.141 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:03:52.141 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:03:52.141 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:03:52.141 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:03:52.141 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:03:51 GMT
+2015-09-24/11:03:52.141 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:03:52.142 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:52.142 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:03:52.142 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:03:52.143 [main] DEBUG org.apache.http.wire[] - << "51f[\r][\n]"
+2015-09-24/11:03:52.143 [main] DEBUG org.apache.http.wire[] - << "<listaTemaDTO xmlns="http://sercappital.com.co/dataservice"><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Puentes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Puentes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Funerarios</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Funerarios</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">3</temaId><nombre xmlns="http://sercappital.com.co/dataservice">[0xc3][0x81]rboles</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema [0xc3][0x81]rboles</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">4</temaId><nombre xmlns="http://sercappital.com.co/dataservice">C[0xc3][0xa9]spedes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema C[0xc3][0xa9]spedes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO></listaTemaDTO>"
+2015-09-24/11:03:52.143 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:52.144 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:03:52.144 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:52.144 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3caa4b
+2015-09-24/11:03:52.144 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:52.145 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51827<->192.168.215.230:9763 closed
+2015-09-24/11:03:52.145 [main] INFO  co.com.sercappital.dataservice.broker.TemasDSBroker[] - Respuesta XML: <listaTemaDTO xmlns="http://sercappital.com.co/dataservice"><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Puentes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Puentes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Funerarios</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Funerarios</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">3</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Árboles</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Árboles</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">4</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Céspedes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Céspedes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO></listaTemaDTO>
+2015-09-24/11:03:52.238 [main] INFO  co.com.sercappital.dataservice.broker.SubtemasDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas, timeOut: 3000
+2015-09-24/11:03:52.240 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:03:52.261 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:03:52.262 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:03:52.264 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:03:52.265 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:03:52.265 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:03:52.265 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:03:52.266 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:03:52.266 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1
+2015-09-24/11:03:52.266 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1[\r][\n]"
+2015-09-24/11:03:52.267 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:03:52.267 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:03:52.267 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:03:52.267 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:03:52.267 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:03:52.268 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:03:52.268 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:03:52.268 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:03:52.268 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:03:52.269 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:03:52.269 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1
+2015-09-24/11:03:52.269 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:03:52.269 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:03:52.269 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:03:52.269 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:03:52.270 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:03:52.270 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:03:52.270 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:03:52.270 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:03:52.270 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:03:52.292 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:03:52.292 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:03:52.293 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:03:52.293 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:03:52.293 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:03:52 GMT[\r][\n]"
+2015-09-24/11:03:52.294 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:03:52.294 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:52.294 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:03:52.294 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:03:52.294 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:03:52.294 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:03:52.295 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:03:52.295 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:03:52 GMT
+2015-09-24/11:03:52.295 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:03:52.295 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:52.295 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:03:52.296 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:03:52.296 [main] DEBUG org.apache.http.wire[] - << "1082[\r][\n]"
+2015-09-24/11:03:52.297 [main] DEBUG org.apache.http.wire[] - << "<listaSubTemaDTO xmlns="http://sercappital.com.co/dataservice"><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">1</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">2</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">3</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">4</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Riesgo</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Riesgo</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">5</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">6</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">7</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId>8</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>2</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>9</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>10</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>11</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>12</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>13</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>14</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>15</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>16</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO></listaSubTemaDTO>"
+2015-09-24/11:03:52.298 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:52.298 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:03:52.298 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:03:52.298 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@44d6b059
+2015-09-24/11:03:52.298 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:03:52.299 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51828<->192.168.215.230:9763 closed
+2015-09-24/11:03:52.300 [main] INFO  co.com.sercappital.dataservice.broker.SubtemasDSBroker[] - Respuesta XML: <listaSubTemaDTO xmlns="http://sercappital.com.co/dataservice"><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">1</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">2</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">3</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">4</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Riesgo</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Riesgo</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">5</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">6</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">7</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId>8</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>2</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>9</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>10</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>11</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>12</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>13</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>14</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>15</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>16</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO></listaSubTemaDTO>
+2015-09-24/11:08:16.234 [main] INFO  co.com.sercappital.dataservice.broker.UsuariosDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios, timeOut: 3000
+2015-09-24/11:08:16.260 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:08:17.123 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:08:17.176 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:08:17.250 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:08:17.309 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:08:17.310 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:08:17.312 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:08:17.313 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:08:17.313 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1
+2015-09-24/11:08:17.316 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1[\r][\n]"
+2015-09-24/11:08:17.320 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:08:17.320 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:08:17.321 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:08:17.321 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:08:17.321 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:08:17.321 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:08:17.322 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:08:17.322 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:08:17.322 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:08:17.322 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:08:17.322 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_USUARIOS_DataService.HTTPEndpoint/getByUsuarioUsuarios/juanda HTTP/1.1
+2015-09-24/11:08:17.323 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:08:17.323 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:08:17.323 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:08:17.323 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:08:17.323 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:08:17.323 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:08:17.324 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:08:17.324 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:08:17.324 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:08:17.421 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:08:17.430 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:08:17.431 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:08:17.431 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:08:17.431 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:08:17 GMT[\r][\n]"
+2015-09-24/11:08:17.432 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:08:17.432 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:17.434 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:08:17.435 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:08:17.435 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:08:17.435 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:08:17.435 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:08:17.435 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:08:17 GMT
+2015-09-24/11:08:17.436 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:08:17.456 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:08:17.465 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:08:17.466 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:08:17.466 [main] DEBUG org.apache.http.wire[] - << "378[\r][\n]"
+2015-09-24/11:08:17.467 [main] DEBUG org.apache.http.wire[] - << "<usuarioDTO xmlns="http://sercappital.com.co/dataservice"><usuarioId xmlns="http://sercappital.com.co/dataservice">1</usuarioId><correo xmlns="http://sercappital.com.co/dataservice">juriberuiz@gmail.com</correo><nombre xmlns="http://sercappital.com.co/dataservice">Juan David Uribe</nombre><usuario xmlns="http://sercappital.com.co/dataservice">juanda</usuario><numeroIdentificacion xmlns="http://sercappital.com.co/dataservice">4514938</numeroIdentificacion><direccion xmlns="http://sercappital.com.co/dataservice">Rafael Nu[0xc3][0xb1]ez</direccion><telefono xmlns="http://sercappital.com.co/dataservice">3012594285</telefono><clave xmlns="http://sercappital.com.co/dataservice">ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413</clave><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></usuarioDTO>"
+2015-09-24/11:08:17.467 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:17.467 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:08:17.468 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:17.468 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7786df0f
+2015-09-24/11:08:17.468 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:08:17.470 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51851<->192.168.215.230:9763 closed
+2015-09-24/11:08:17.471 [main] INFO  co.com.sercappital.dataservice.broker.UsuariosDSBroker[] - Respuesta XML: <usuarioDTO xmlns="http://sercappital.com.co/dataservice"><usuarioId xmlns="http://sercappital.com.co/dataservice">1</usuarioId><correo xmlns="http://sercappital.com.co/dataservice">juriberuiz@gmail.com</correo><nombre xmlns="http://sercappital.com.co/dataservice">Juan David Uribe</nombre><usuario xmlns="http://sercappital.com.co/dataservice">juanda</usuario><numeroIdentificacion xmlns="http://sercappital.com.co/dataservice">4514938</numeroIdentificacion><direccion xmlns="http://sercappital.com.co/dataservice">Rafael Nuñez</direccion><telefono xmlns="http://sercappital.com.co/dataservice">3012594285</telefono><clave xmlns="http://sercappital.com.co/dataservice">ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413</clave><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></usuarioDTO>
+2015-09-24/11:08:18.262 [main] INFO  co.com.sercappital.dataservice.broker.TemasDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas, timeOut: 3000
+2015-09-24/11:08:18.262 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:08:18.288 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:08:18.289 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:08:18.292 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:08:18.292 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:08:18.293 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:08:18.293 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:08:18.293 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:08:18.293 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1
+2015-09-24/11:08:18.293 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1[\r][\n]"
+2015-09-24/11:08:18.294 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:08:18.294 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:08:18.294 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:08:18.294 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:08:18.294 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:08:18.295 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:08:18.295 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:08:18.295 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:08:18.295 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:08:18.295 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:08:18.296 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_TEMAS_DataService.HTTPEndpoint/getAllTemas/ HTTP/1.1
+2015-09-24/11:08:18.296 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:08:18.296 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:08:18.296 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:08:18.296 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:08:18.296 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:08:18.296 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:08:18.297 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:08:18.297 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:08:18.297 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:08:18.312 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:08:18.312 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:08:18.313 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:08:18.313 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:08:18.313 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:08:17 GMT[\r][\n]"
+2015-09-24/11:08:18.313 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:08:18.314 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:18.314 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:08:18.314 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:08:18.314 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:08:18.314 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:08:18.314 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:08:18.315 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:08:17 GMT
+2015-09-24/11:08:18.315 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:08:18.315 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:08:18.315 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:08:18.316 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:08:18.316 [main] DEBUG org.apache.http.wire[] - << "51f[\r][\n]"
+2015-09-24/11:08:18.317 [main] DEBUG org.apache.http.wire[] - << "<listaTemaDTO xmlns="http://sercappital.com.co/dataservice"><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Puentes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Puentes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Funerarios</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Funerarios</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">3</temaId><nombre xmlns="http://sercappital.com.co/dataservice">[0xc3][0x81]rboles</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema [0xc3][0x81]rboles</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">4</temaId><nombre xmlns="http://sercappital.com.co/dataservice">C[0xc3][0xa9]spedes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema C[0xc3][0xa9]spedes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO></listaTemaDTO>"
+2015-09-24/11:08:18.317 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:18.317 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:08:18.317 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:18.317 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@656dc861
+2015-09-24/11:08:18.318 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:08:18.318 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51853<->192.168.215.230:9763 closed
+2015-09-24/11:08:18.318 [main] INFO  co.com.sercappital.dataservice.broker.TemasDSBroker[] - Respuesta XML: <listaTemaDTO xmlns="http://sercappital.com.co/dataservice"><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Puentes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Puentes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Funerarios</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Funerarios</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">3</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Árboles</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Árboles</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO><temaDTO><temaId xmlns="http://sercappital.com.co/dataservice">4</temaId><nombre xmlns="http://sercappital.com.co/dataservice">Céspedes</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">Tema Céspedes</descripcion><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></temaDTO></listaTemaDTO>
+2015-09-24/11:08:18.403 [main] INFO  co.com.sercappital.dataservice.broker.SubtemasDSBroker[] - URL: http://192.168.215.230:9763/services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas, timeOut: 3000
+2015-09-24/11:08:18.404 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Método consumirServicio
+2015-09-24/11:08:18.459 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Get connection for route {}->http://192.168.215.230:9763
+2015-09-24/11:08:18.460 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator[] - Connecting to 192.168.215.230:9763
+2015-09-24/11:08:18.463 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: best-match
+2015-09-24/11:08:18.464 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2015-09-24/11:08:18.464 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication[] - Target auth state: UNCHALLENGED
+2015-09-24/11:08:18.464 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication[] - Proxy auth state: UNCHALLENGED
+2015-09-24/11:08:18.464 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Attempt 1 to execute request
+2015-09-24/11:08:18.464 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Sending request: GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1
+2015-09-24/11:08:18.465 [main] DEBUG org.apache.http.wire[] - >> "GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1[\r][\n]"
+2015-09-24/11:08:18.465 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2015-09-24/11:08:18.465 [main] DEBUG org.apache.http.wire[] - >> "Content-Type: application/json[\r][\n]"
+2015-09-24/11:08:18.466 [main] DEBUG org.apache.http.wire[] - >> "Accept: text/html,text/xml,text/plain[\r][\n]"
+2015-09-24/11:08:18.466 [main] DEBUG org.apache.http.wire[] - >> "Connection: keep-alive[\r][\n]"
+2015-09-24/11:08:18.466 [main] DEBUG org.apache.http.wire[] - >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-24/11:08:18.466 [main] DEBUG org.apache.http.wire[] - >> "Accept-Charset: utf-8[\r][\n]"
+2015-09-24/11:08:18.466 [main] DEBUG org.apache.http.wire[] - >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2015-09-24/11:08:18.467 [main] DEBUG org.apache.http.wire[] - >> "Cache-Control: no-cache[\r][\n]"
+2015-09-24/11:08:18.467 [main] DEBUG org.apache.http.wire[] - >> "Host: 192.168.215.230:9763[\r][\n]"
+2015-09-24/11:08:18.467 [main] DEBUG org.apache.http.wire[] - >> "[\r][\n]"
+2015-09-24/11:08:18.467 [main] DEBUG org.apache.http.headers[] - >> GET /services/MOB_SUBTEMAS_DataService.HTTPEndpoint/getAllSubtemas/ HTTP/1.1
+2015-09-24/11:08:18.467 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/x-www-form-urlencoded
+2015-09-24/11:08:18.468 [main] DEBUG org.apache.http.headers[] - >> Content-Type: application/json
+2015-09-24/11:08:18.468 [main] DEBUG org.apache.http.headers[] - >> Accept: text/html,text/xml,text/plain
+2015-09-24/11:08:18.468 [main] DEBUG org.apache.http.headers[] - >> Connection: keep-alive
+2015-09-24/11:08:18.468 [main] DEBUG org.apache.http.headers[] - >> User-Agent: Mozilla/5.0
+2015-09-24/11:08:18.468 [main] DEBUG org.apache.http.headers[] - >> Accept-Charset: utf-8
+2015-09-24/11:08:18.468 [main] DEBUG org.apache.http.headers[] - >> Accept-Language: es,en,en-US,es-ES,es-MX
+2015-09-24/11:08:18.468 [main] DEBUG org.apache.http.headers[] - >> Cache-Control: no-cache
+2015-09-24/11:08:18.469 [main] DEBUG org.apache.http.headers[] - >> Host: 192.168.215.230:9763
+2015-09-24/11:08:18.484 [main] DEBUG org.apache.http.wire[] - << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-24/11:08:18.485 [main] DEBUG org.apache.http.wire[] - << "Content-Type: application/xml;charset=UTF-8[\r][\n]"
+2015-09-24/11:08:18.485 [main] DEBUG org.apache.http.wire[] - << "Transfer-Encoding: chunked[\r][\n]"
+2015-09-24/11:08:18.485 [main] DEBUG org.apache.http.wire[] - << "Vary: Accept-Encoding[\r][\n]"
+2015-09-24/11:08:18.486 [main] DEBUG org.apache.http.wire[] - << "Date: Thu, 24 Sep 2015 16:08:18 GMT[\r][\n]"
+2015-09-24/11:08:18.486 [main] DEBUG org.apache.http.wire[] - << "Server: WSO2 Carbon Server[\r][\n]"
+2015-09-24/11:08:18.486 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:18.487 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Receiving response: HTTP/1.1 200 OK
+2015-09-24/11:08:18.487 [main] DEBUG org.apache.http.headers[] - << HTTP/1.1 200 OK
+2015-09-24/11:08:18.487 [main] DEBUG org.apache.http.headers[] - << Content-Type: application/xml;charset=UTF-8
+2015-09-24/11:08:18.487 [main] DEBUG org.apache.http.headers[] - << Transfer-Encoding: chunked
+2015-09-24/11:08:18.487 [main] DEBUG org.apache.http.headers[] - << Vary: Accept-Encoding
+2015-09-24/11:08:18.487 [main] DEBUG org.apache.http.headers[] - << Date: Thu, 24 Sep 2015 16:08:18 GMT
+2015-09-24/11:08:18.487 [main] DEBUG org.apache.http.headers[] - << Server: WSO2 Carbon Server
+2015-09-24/11:08:18.488 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient[] - Connection can be kept alive indefinitely
+2015-09-24/11:08:18.488 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Respuesta Correcta: 200
+2015-09-24/11:08:18.488 [main] INFO  co.com.sercappital.dataservice.cliente.ClienteServiciosDataservice[] - Consumiendo el servicio del Servidor...
+2015-09-24/11:08:18.489 [main] DEBUG org.apache.http.wire[] - << "1082[\r][\n]"
+2015-09-24/11:08:18.490 [main] DEBUG org.apache.http.wire[] - << "<listaSubTemaDTO xmlns="http://sercappital.com.co/dataservice"><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">1</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">2</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">3</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">4</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Riesgo</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Riesgo</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">5</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">6</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">7</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId>8</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>2</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>9</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>10</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>11</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>12</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>13</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>14</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>15</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>16</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO></listaSubTemaDTO>"
+2015-09-24/11:08:18.490 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:18.491 [main] DEBUG org.apache.http.wire[] - << "0[\r][\n]"
+2015-09-24/11:08:18.491 [main] DEBUG org.apache.http.wire[] - << "[\r][\n]"
+2015-09-24/11:08:18.491 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d8e8541
+2015-09-24/11:08:18.491 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager[] - Connection can be kept alive indefinitely
+2015-09-24/11:08:18.492 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection[] - Connection 0.0.0.0:51854<->192.168.215.230:9763 closed
+2015-09-24/11:08:18.492 [main] INFO  co.com.sercappital.dataservice.broker.SubtemasDSBroker[] - Respuesta XML: <listaSubTemaDTO xmlns="http://sercappital.com.co/dataservice"><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">1</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">2</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">3</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">4</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Riesgo</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Riesgo</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">1</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">5</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Mal estado</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Mal estado</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">6</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Uso indebido</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Uso indebido</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId xmlns="http://sercappital.com.co/dataservice">7</subTemaId><nombre xmlns="http://sercappital.com.co/dataservice">Basura</nombre><descripcion xmlns="http://sercappital.com.co/dataservice">SubTema Basura</descripcion><temaId xmlns="http://sercappital.com.co/dataservice">2</temaId><estadoId xmlns="http://sercappital.com.co/dataservice">1</estadoId></subTemaDTO><subTemaDTO><subTemaId>8</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>2</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>9</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>10</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>11</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>12</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>3</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>13</subTemaId><nombre>Mal estado</nombre><descripcion>SubTema Mal estado</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>14</subTemaId><nombre>Uso indebido</nombre><descripcion>SubTema Uso indebido</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>15</subTemaId><nombre>Basura</nombre><descripcion>SubTema Basura</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO><subTemaDTO><subTemaId>16</subTemaId><nombre>Riesgo</nombre><descripcion>SubTema Riesgo</descripcion><temaId>4</temaId><estadoId>1</estadoId></subTemaDTO></listaSubTemaDTO>
