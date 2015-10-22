@@ -363,6 +363,35 @@ public class ServiciosSerCappital {
 	            .build();
 	}
 	
+	@GET
+	@POST
+	@Path("/consultaListaUltimasObservaciones/{usuarioJson}")
+	@Produces(ConstantesSerCappital.APPLICATION_TEXT_UTF8)
+	@Consumes(ConstantesSerCappital.APPLICATION_TEXT_UTF8)
+	@DefaultValue("")
+	public Response consultaListaUltimasObservaciones(
+			@PathParam("usuarioJson") String usuarioJson) throws Exception {
+		Base64 base64 = new Base64();
+		RespuestaListaObservacionesDTO respuestaListaObservacionesDTO;
+		ObservacionesLogica observacionesLogica;
+		System.out.println("........consultaListaUltimasObservaciones");
+		Log.getInstance().info("[consultaListaUltimasObservaciones] Llego (B64): " + usuarioJson, getClass());
+		
+		charset = PropiedadesManager.getInstance().getProperty(ConstantesSerCappital.CHARSET_ENCODIG);
+		
+		observacionesLogica = new ObservacionesLogica();
+		respuestaListaObservacionesDTO = observacionesLogica.consultaListaUltimasObservaciones(usuarioJson);
+		return Response
+	            .status(200)
+	            .header("Access-Control-Allow-Origin", "*")
+	            .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+	            .header("Access-Control-Allow-Credentials", "true")
+	            .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+	            .header("Access-Control-Max-Age", "1209600")
+	            .entity(new String(base64.encode(UtilidadJson.dtoToJson(respuestaListaObservacionesDTO).getBytes(charset)), charset))
+	            .build();
+	}
+	
 	
 
 }

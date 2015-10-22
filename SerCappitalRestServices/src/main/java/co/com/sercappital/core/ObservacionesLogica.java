@@ -47,7 +47,7 @@ public class ObservacionesLogica {
 		
 		try {
 			usuarioJson = new String(base64.decode(usuarioJson.getBytes(charset)), charset);
-			Log.getInstance().info("[consultaListaReporte] Llego: " + usuarioJson, getClass());
+			Log.getInstance().info("[consultaListaObservaciones] Llego: " + usuarioJson, getClass());
 			
 			usuarioDTO = (UsuarioDTO)UtilidadJson.jsonToDto(usuarioJson, UsuarioDTO.class);
 			
@@ -61,13 +61,13 @@ public class ObservacionesLogica {
 			respuestaListaObservacionesDTO.setCodigoRespuesta(ContantesMensajesRespuesta.CODIGO_RTA_EXITOSA);
 			respuestaListaObservacionesDTO.setMensajeRespuesta(ContantesMensajesRespuesta.MSJ_TRANSACCION_EXITOSA);
 		} catch (NegocioExcepcion e) {
-			Log.getInstance().error("[NegocioExcepcion] consultaListaReporte: " + e.getMessage(), getClass());
+			Log.getInstance().error("[NegocioExcepcion] consultaListaObservaciones: " + e.getMessage(), getClass());
 			respuestaListaObservacionesDTO.setCodigoRespuesta(ContantesMensajesRespuesta.CODIGO_ERROR_GENERAL);
 			respuestaListaObservacionesDTO.setMensajeRespuesta(e.getMessage());
 			respuestaListaObservacionesDTO.setListaObservaciones(null);
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.getInstance().error("[Exception] consultaListaReporte: ", getClass());
+			Log.getInstance().error("[Exception] consultaListaObservaciones: ", getClass());
 			Log.getInstance().error(e, getClass());
 			respuestaListaObservacionesDTO.setCodigoRespuesta(ContantesMensajesRespuesta.CODIGO_ERROR_GENERAL);
 			respuestaListaObservacionesDTO.setMensajeRespuesta(ContantesMensajesRespuesta.MSJ_ERROR_GENERAL_LISTA_OBSERVACIONES);
@@ -279,6 +279,48 @@ public class ObservacionesLogica {
 			respuestaObservacionDTO.setObservacionDTO(null);
 		}
 		return respuestaObservacionDTO;
+	}
+	
+	/**
+	 * Metodo encargado de realizar la consulta de observaciones.
+	 * 
+	 * @param usuarioJson
+	 * @return
+	 */
+	public RespuestaListaObservacionesDTO consultaListaUltimasObservaciones(String usuarioJson){
+		UsuarioDTO usuarioDTO;
+		RespuestaListaObservacionesDTO respuestaListaObservacionesDTO = new RespuestaListaObservacionesDTO();
+		List<ObservacionDTO> listaObservaciones;
+		
+		try {
+			usuarioJson = new String(base64.decode(usuarioJson.getBytes(charset)), charset);
+			Log.getInstance().info("[consultaListaUltimasObservaciones] Llego: " + usuarioJson, getClass());
+			
+			usuarioDTO = (UsuarioDTO)UtilidadJson.jsonToDto(usuarioJson, UsuarioDTO.class);
+			
+			if(usuarioDTO.getUsuarioId() == null || usuarioDTO.getUsuarioId().equals(0L)){
+				throw new NegocioExcepcion(ContantesMensajesRespuesta.MSJ_ERROR_NO_ID_USUARIO_OBSERVACIONES);
+			}
+			
+			listaObservaciones = ObservacionDSBroker.getInstancia().getUltimasObservacionesByUsuarioId(usuarioDTO.getUsuarioId());
+			
+			respuestaListaObservacionesDTO.setListaObservaciones(listaObservaciones);
+			respuestaListaObservacionesDTO.setCodigoRespuesta(ContantesMensajesRespuesta.CODIGO_RTA_EXITOSA);
+			respuestaListaObservacionesDTO.setMensajeRespuesta(ContantesMensajesRespuesta.MSJ_TRANSACCION_EXITOSA);
+		} catch (NegocioExcepcion e) {
+			Log.getInstance().error("[NegocioExcepcion] consultaListaUltimasObservaciones: " + e.getMessage(), getClass());
+			respuestaListaObservacionesDTO.setCodigoRespuesta(ContantesMensajesRespuesta.CODIGO_ERROR_GENERAL);
+			respuestaListaObservacionesDTO.setMensajeRespuesta(e.getMessage());
+			respuestaListaObservacionesDTO.setListaObservaciones(null);
+		} catch (Exception e) {
+			e.printStackTrace();
+			Log.getInstance().error("[Exception] consultaListaUltimasObservaciones: ", getClass());
+			Log.getInstance().error(e, getClass());
+			respuestaListaObservacionesDTO.setCodigoRespuesta(ContantesMensajesRespuesta.CODIGO_ERROR_GENERAL);
+			respuestaListaObservacionesDTO.setMensajeRespuesta(ContantesMensajesRespuesta.MSJ_ERROR_GENERAL_LISTA_ULTIMAS_OBSERVACIONES);
+			respuestaListaObservacionesDTO.setListaObservaciones(null);
+		}
+		return respuestaListaObservacionesDTO;
 	}
 	
 	

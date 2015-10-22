@@ -478,5 +478,55 @@ public class ObservacionDSBroker {
 	}
 	
 	
+	/**
+	 * 
+	 * @param usuarioId
+	 * @return
+	 * @throws NegocioExcepcion
+	 */
+	public List<ObservacionDTO> getUltimasObservacionesByUsuarioId(Long usuarioId) throws NegocioExcepcion{
+
+		String URL = "";
+		String nombreServicio;
+		String dominioDataServices;
+		String dominioServicio;
+		String respuestaServicio;
+		Integer timeout;
+		LinkedList<Object> listaParametros = null;
+		ListaObservacionDTO listaObservacionDTO = new ListaObservacionDTO();
+		ClienteServiciosDataservice clienteServicios = null;
+		
+		try{
+			dominioDataServices = PropiedadesManager.getInstance().getProperty(ConstantesSerCappital.DOMINIO_DATASERVICES);
+			dominioServicio = PropiedadesManager.getInstance().getProperty(ConstantesSerCappital.DOMINIO_OBSERVACIONES);
+			nombreServicio = PropiedadesManager.getInstance().getProperty(ConstantesSerCappital.NOMBRE_SERVICIO_GET_ULTIMAS_OBSERVACIONES_BY_USUARIO_ID);
+			timeout = Integer.parseInt(PropiedadesManager.getInstance().getProperty(ConstantesSerCappital.TIMEOUT_DATASERVICES));
+			
+			URL = dominioDataServices+dominioServicio+nombreServicio;
+			Log.getInstance().info("URL: " + URL + ", timeOut: " + timeout, getClass());
+			
+			listaParametros = new LinkedList<Object>();
+			listaParametros.add(usuarioId);
+			
+			clienteServicios = new ClienteServiciosDataservice(URL, 
+					listaParametros);
+			respuestaServicio = clienteServicios.consumirServicio();
+			Log.getInstance().info("Respuesta XML: " + respuestaServicio, getClass());
+			
+			listaObservacionDTO = (ListaObservacionDTO)UtilidadesPojo.getXmlToPojo(
+								respuestaServicio,
+								ListaObservacionDTO.class
+							);
+		} catch(NegocioExcepcion e){
+			Log.getInstance().error(e, getClass());
+			throw e;
+		} catch(Exception e){
+			Log.getInstance().error(e, getClass());
+			throw new NegocioExcepcion(ConstantesSerCappital.MENSAJE_ERROR_BROKER);
+		}
+		
+		return listaObservacionDTO.getObservacionDTO();
+	}
+	
 
 }

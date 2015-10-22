@@ -32,6 +32,7 @@ public class ConstantesSerCappital {
 	public static final String NOMBRE_SERVICIO_INSERT_OBSERVACIONES = "nombre.servicio.insertObservaciones";
 	public static final String NOMBRE_SERVICIO_GET_BY_ID_OBSERVACIONES = "nombre.servicio.getByIdObservaciones";
 	public static final String NOMBRE_SERVICIO_GET_ALL_OBSERVACIONES_BY_USUARIO_ID = "nombre.servicio.getAllObservacionesByUsuarioId";
+	public static final String NOMBRE_SERVICIO_GET_ULTIMAS_OBSERVACIONES_BY_USUARIO_ID = "nombre.servicio.getUltimasObservacionesByUsuarioId";
 	public static final String NOMBRE_SERVICIO_PONER_RADICADO = "nombre.servicio.ponerRadicado";
 	public static final String NOMBRE_SERVICIO_UPDATE_FOTO_OBSERVACIONES = "nombre.servicio.updateFotoObservaciones";
 

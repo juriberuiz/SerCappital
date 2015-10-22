@@ -18,6 +18,7 @@ public class ContantesMensajesRespuesta {
 	public static final String MSJ_ERROR_GENERAL_MODIFICAR_USUARIO = "Ocurrio un error al modificar el usuario.";
 	public static final String MSJ_ERROR_GENERAL_OLVIDO_CLAVE = "Ocurrio un error al procesar el olvido de clave.";
 	public static final String MSJ_ERROR_GENERAL_LISTA_OBSERVACIONES = "Ocurrio un error al consultar el listado de observaciones.";
+	public static final String MSJ_ERROR_GENERAL_LISTA_ULTIMAS_OBSERVACIONES = "Ocurrio un error al consultar las ultimas observaciones.";
 	public static final String MSJ_ERROR_GENERAL_OBSERVACION = "Ocurrio un error al consultar la observacion.";
 	public static final String MSJ_ERROR_GENERAL_ELIMINAR_OBSERVACION = "Ocurrio un error al eliminar la observacion.";
 	public static final String MSJ_ERROR_GENERAL_INSERTAR_OBSERVACION = "Ocurrio un error al almacenar la observacion.";
