@@ -147,6 +147,12 @@ public class UsuariosLogica {
 				throw new NegocioExcepcion(ContantesMensajesRespuesta.MSJ_ERROR_USUARIO_YA_REGISTRADO);
 			}
 			
+			usuarioConsultaDTO = UsuariosDSBroker.getInstancia().getByCorreoUsuarios(usuarioDTO.getCorreo());
+			if(usuarioConsultaDTO != null && 
+					usuarioConsultaDTO.getUsuarioId() != null){
+				throw new NegocioExcepcion(ContantesMensajesRespuesta.MSJ_ERROR_CORREO_YA_REGISTRADO);
+			}
+			
 			if(usuarioDTO.getDireccion() != null && usuarioDTO.getDireccion().trim().length() > 0){
 				usuarioDTO.setDireccion(usuarioDTO.getDireccion().replaceAll("#", "Nro."));
 			}

@@ -27,6 +27,7 @@ public class ContantesMensajesRespuesta {
 	public static final String MSJ_ERROR_USUARIO_NO_EXISTE = "Usuario no registrado.";
 	public static final String MSJ_ERROR_CLAVE_INVALIDA = "Usuario y/o contraseña inválida, favor intente nuevamente.";
 	public static final String MSJ_ERROR_USUARIO_YA_REGISTRADO = "Nombre de usuario ya registrado.";
+	public static final String MSJ_ERROR_CORREO_YA_REGISTRADO = "Correo electronico ya registrado.";
 	public static final String MSJ_ERROR_NO_USUARIO = "No llegó nombre de usuario.";
 	public static final String MSJ_ERROR_NO_CLAVE = "No llegó clave de usuario.";
 	public static final String MSJ_ERROR_NO_CORREO = "No llegó correo de usuario.";
